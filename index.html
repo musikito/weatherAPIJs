@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Devs Weather App</title>
+  <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+  <!-- bootstrap css cdn -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- local style file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- jquery and bootstrap js files cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="heading">
+          <h1 class="text-center">CareerDevs Weather app</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-xs-8 col-xs-push-2 col-md-push-3">
+            <div class="weather text-center">
+              <h2 class="temp"></h2>
+              <h3><span class="city"></span>, <span class="country"></span></h3>
+              <div class="iconpic">
+                <img src="" class='img img-responsive center-block'>
+              </div>
+              <h4 class="weatherDetail"></h4>
+              <div class="toggle" id="c">
+                <button type="button" class="btn btn-danger btn-lg">Toggle temperature</button>
+              </div>
+            </div><!--weather-->
+          </div>
+        </div><!--row-->
+        <br/>
+        <p class="text-center">by <a href="https://github.com/musikito" target="_blank">Musikito</a></p>
+      </div>
+  <script src="app.js"></script>
+</body>
+</html>
