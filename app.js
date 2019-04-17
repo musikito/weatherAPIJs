@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var fahrenheit, celcius;
-    let apiKey = "bc535a3982bd83c620ac0add30362f06";
+    let apiKey = "PUT YOUR OWN API KEY HERE";
     let WeatherUrl = "http://api.openweathermap.org/data/2.5/weather"
 
 
